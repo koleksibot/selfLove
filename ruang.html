@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+  <script src="https://kit.fontawesome.com/ad054fe453.js" crossorigin="anonymous"></script>
+  <title>SelfLove</title>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="container">
+      <div class="row">
+        <div class="d-flex">
+          <div class="col-sm-12 pl-3">
+            <div class="chevron">
+              <a href="/" style="color: black;">
+                <i class="fas fa-chevron-left"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <main>
+      <!-- banner -->
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 ">
+            <div class="banner">
+              <div class="banner-text">
+                <h4>Selamat datang di Ruang Curhat</h4>
+                <br />
+                <h4>
+                  Mulai curhat yuk!
+                </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end of banner -->
+
+      <!-- form -->
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-sm-3"></div>
+          <form class="col-sm-6 curhat">
+            <fieldset id="darurat">
+              <label class="title-form">Apakah ini darurat?</label>
+              <label class="container">Iya
+                <input type="radio" onchange="handleOnchange('darurat', true)" value="Iya" name="darurat" />
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">Tidak
+                <input type="radio" value="tidak" onchange="handleOnchange('darurat', false)" name="darurat" />
+                <span class="checkmark"></span>
+              </label>
+              <div class="divider"></div>
+            </fieldset>
+            <fieldset id="kondisi">
+              <label class="title-form">Bagaimana kondisinya sekarang?</label>
+              <label class="container">Baik
+                <input type="radio" value="baik" onchange="handleOnchange('kondisi', true)" name="kondisi" />
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">Tidak Baik
+                <input type="radio" value="tidak baik" onchange="handleOnchange('kondisi', false)" name="kondisi" />
+                <span class="checkmark"></span>
+              </label>
+            </fieldset>
+              <div class="divider"></div>
+              <div class="d-flex justify-content-end">
+                <a href="./chat.html" type="submit" class="btn btn-primary">Kirim</a>
+              </div>
+          </form>
+          <div class="col-sm-3"></div>
+        </div>
+      </div>
+      <!-- end of form -->
+  </div>
+  </main>
+  </div>
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <script src="./ruang.js"></script>
+</body>
+
+</html>

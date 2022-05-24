@@ -1,0 +1,90 @@
+.title {
+  font-size: 40px;
+}
+
+.banner {
+  height: 150px;
+  width: 100%;
+  position: relative;
+  padding: 10px;
+  padding-top: 30px;
+}
+
+.banner-text {
+  position: absolute;
+  bottom: 0;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.title-form {
+  font-size: 22px;
+  font-family: 'Quicksand', sans-serif;
+}
+.container {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.divider {
+  border: 1px solid lightgrey;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.curhat {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  padding: 12px;
+  border-radius: 8px;
+}
+
+input[type="radio"] {
+  margin-left: 8px;
+}
+
+.font-size32 {
+  font-size: 32px;
+}
+
+/* row */
+
+.margin-x16 {
+  margin: 0 16px;
+}
+
+.circle-green {
+  background-color: green;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+
+.chat {
+  position: fixed;
+  bottom: 18px;
+  width: 100%;
+}
+
+#txt-input {
+  width: 100%;
+}
+
+.chat > .d-flex > i {
+  margin: 16px 30px;
+}
+.send-btn {
+  font-size: 24px;
+  margin-left: 70px;
+}
+
+.fa-home {
+  margin-top: 8px;
+}
+
+.chevron {
+  font-size:xx-large;
+  margin-top: 10px;
+}
+.fas {
+  margin-top: 10px;
+  padding-left: 3px;
+}

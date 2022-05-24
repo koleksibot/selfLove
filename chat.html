@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SelfLove</title>
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+  <script src="https://kit.fontawesome.com/ad054fe453.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+  <div class="container-fluid">
+    <div class="container">
+      <div class="row">
+        <div class="d-flex">
+          <div class="col-sm-12 pl-3 ">
+            <div class="chevron">
+              <a href="/" style="color: black;">
+                <i class="fas fa-home"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="shenzo">
+      <div class=" d-flex justify-content-between mt-2">
+        <div>
+          <i class="fas fa-user-circle font-size32 margin-x16"></i>
+          <span>Shenzo (Bot)</span>
+        </div>
+        <!-- <div class="circle-green"></div> -->
+      </div>
+      <div class="divider"></div>
+    </div>
+
+    <div class="col-7 px-0">
+      <div class="px-4 py-5 chat-box bg-white" id="container-chat">
+        <!-- Sender Message-->
+
+      </div>
+    </div>
+
+    <div class="chat">
+      <div class="d-flex">
+        <input class="bg-light" type="text" id="txt-input" value="" placeholder="Type Message Here..." />
+        <i class="fas fa-paper-plane send-btn mt-2" onClick="sendText()"></i>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.8.21/dayjs.min.js"></script>
+    <script src="./chat.js"></script>
+</body>
+
+</html>
